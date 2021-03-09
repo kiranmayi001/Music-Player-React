@@ -1,0 +1,36 @@
+.SongImage{
+    width:200px;
+    height:200px;
+    /* position: absolute; */
+}
+
+.SongName{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ArtistName{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.MusicCard{
+    width:200px;
+    min-height:280px;
+    box-shadow: 2px 3px 3px grey;
+    /* border: 1px solid black; */
+    margin: 25px;
+}
+
+.HomePage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PlayButton{
+    font-size: 50px;
+   color: grey;
+   /* opacity: 0.2; */
+  /* background: transparent; */
+}

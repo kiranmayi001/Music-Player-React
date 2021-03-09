@@ -1,0 +1,139 @@
+body{
+    width: 100%;
+    height:100vh;
+    /* background-color: turquoise; */
+}
+.SongImage{
+    width:250px;
+    height: 250px;
+    margin-bottom: 0;
+    /* border-radius: 50%; */
+}
+
+.Wrapper{
+    width:250px;
+    height:250px;
+    border: 1px solid black;
+
+    /* display: flex;
+    text-align: center;
+    align-items: center; */
+}
+
+.SongName{
+    margin: 0;
+}
+.ArtistName{
+    margin: 0;
+}
+
+.PlayerPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+
+   border: 1px solid black;
+   width:100%;
+   height:100vh;
+
+   /* background-image: url("https://i.kfs.io/album/global/36258062,0v1/fit/500x500.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position: ; */
+
+    position: absolute;
+
+}
+
+.SongNames{
+    margin-left: 25px;
+}
+.SongControls{
+    margin-top: 150px;
+}
+
+.ControlWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.Progressbar{
+    width: 1300px;
+    height: 5px;
+    margin-bottom: 30px;
+    /* color: black; */
+}
+
+.AudioDurationWrapper{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Icons{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.RandomButton{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.backwordButton{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.PlayButton{
+    margin-left:20px;
+    margin-right: 20px;
+    font-size: 50px;
+}
+.ForwordButton{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.Repeatbutton{
+    margin-left:20px;
+    margin-right: 20px;
+}
+.ControlStyle{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.AudioDuration{
+    margin-left: 5px;
+    font-size: 24px;
+    margin-right: 5px;
+    color: white;
+}
+
+.AudioController{
+    margin-left: 5px;
+    margin-right: 5px; 
+    width: 130px;
+    height: 5px;
+}
+
+.MuteButton{
+    width:20px;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+
+.Opacity{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: transparent;
+    position: absolute;
+    opacity: 0.2;
+    top:0;
+    left: 0;;
+    /* z-index: 1000; */
+}
